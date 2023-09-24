@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,500');
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  }
+@media (max-width: 768px) {
+  .logo{
+    font-size: 5rem !important;
+  }
+
+}
+@media (max-width: 576px) {
+  #white-bg {
+    background-size: contain !important;
+  }
+
+  header {
+    padding: 0rem 0rem 4rem 0rem !important;
+  }
+
+  .template-heading{
+    font-size: 2.5rem !important;
+  }
+
+  .navbar{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    margin: 0px !important;
+  }
+
+  .footer-top{
+    padding-bottom: 0px !important;
+  }
+
+  .footer-bottom{
+    padding-top: 0px !important;
+  }
+
+  .progress{
+    height: 30px !important;
+  }
+
+  .img-tile-col{
+    padding-top: 0rem !important;
+  }
+
+  .img-tile{
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+
+  .img-1{
+    content: url("assets/photo-6.jpg") !important;
+  }
+
+  .img-2{
+    content: url("assets/photo-2.jpg") !important;
+  }
+
+  .img-4{
+    content: url("assets/photo-4.jpg") !important;
+  }
+
+  .contact-text{
+    margin-left: 0rem !important;
+  }
+
+}
+
+
+
+section{
+  overflow: hidden;
+}
+/*---header--*/
+header {
+  overflow: hidden;
+  padding: 0rem 4rem 4rem 4rem;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image:url('assets/top-bg.png');
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+/*---Colored Bg --*/
+#color-bg {
+  background-image:linear-gradient(to right, rgba(49, 63, 153, 0.9), rgba(230, 12, 186, 0.9)),url(assets/bg.jpg);
+  background-size:cover;
+  min-height: 200px;
+}
+/*---General--*/
+/*---White Bg --*/
+#white-bg {
+  background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url(assets/bg-white.jpg);
+  background-size: cover;
+}
+
+/*---primary color --*/
+.primary-bg-color{
+  background-color: #ff00cc;
+}
+
+.primary-color{
+  color: #ff00cc !important;
+}
+
+/*---Rounded pill button--*/
+.rounded-pill{
+  border-color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 32px;
+}
+
+/*---div shadow--*/
+.box-shadow-container{
+  margin-top: 50px;
+  box-shadow: 0 0 30px #545556;
+
+}
+/*---End General---*/
+/*---Top bg --*/
+.triangle-1{
+  position: absolute;
+  top: 30%;
+  left: 8%;
+  width: 60px;
+  height: 60px;
+  transform: rotate(14deg);
+}
+
+.triangle-2{
+  position: absolute;
+  top: 90%;
+  left: 5%;
+  width: 40px;
+  height: 40px;
+  transform: rotate(35deg);
+}
+
+.triangle-3{
+  position: absolute;
+  top: 45%;
+  right: 1%;
+  width: 40px;
+  height: 40px;
+  transform: rotate(35deg);
+}
+
+.triangle-4{
+  position: absolute;
+  top: 57%;
+  right: 10%;
+  width: 40px;
+  height: 40px;
+  transform: rotate(-35deg);
+}
+
+.circle-1{
+  position: absolute;
+  top:52%;
+  left: 1%;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fff;
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  transform-origin: 50% 50%;
+}
+
+.circle-2{
+  position: absolute;
+  top:85%;
+  right: 28%;
+  width: 35px;
+  height: 35px;
+  border: 2px solid #fff;
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  transform-origin: 50% 50%;
+}
+
+.circle-3{
+  position: absolute;
+  top: 21%;
+  right: 15%;
+  width: 43px;
+  height: 43px;
+  border: 2px solid #fff;
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  transform-origin: 50% 50%;
+}
+
+/*---Logo--*/
+.logo{
+  letter-spacing: 0.5rem;
+  line-height: .9;
+  font-weight: bold;
+  border: 15px solid #fff !important;
+  padding: 30px;
+  margin: 20vh;
+  font-size: 7rem;
+}
+
+/*---Services--*/
+.icon-s{
+  font-size: 40px;
+}
+
+.service-padding{
+  padding: 1rem 0rem;
+}
+/*---Testimonials --*/
+.testi-img img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%; }
+
+  .carousel .carousel-inner-height{
+    min-height: 30vh;
+  }
+  ul.carousel-indicators {
+    width: auto;
+  }
+  .carousel-indicators li, .carousel-indicators li.active {
+    margin: 0px 7px !important;
+  }
+  ul.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    margin-right: 0.5rem;
+    border-radius: 100%;
+    border: 5px;
+    border: 5px;
+    border-radius: 100%;
+    border-color: #f9b4ea;
+    background: #f9b4ea;
+  }
+  ul.carousel-indicators li.active{
+    background: #ff00cc;
+  }
+/*---Image Tiles--*/
+.rounded-tile{
+  border-radius: 0.75rem!important;
+}
+
+.img-tile-col{
+  padding: 1rem 0.5rem !important;
+}
+
+/*---Contact Us--*/
+.form-padding{
+  padding: 1rem 2rem;
+}
+
+.contact-text{
+  margin-left: 2rem;
+}
+
+
+/*---Tutorial-- */
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
